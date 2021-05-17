@@ -1,0 +1,139 @@
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+ }
+
+header {
+    background-color: #00ffdd;
+    color: white;
+    padding: 0.4px;
+    text-align:left;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 3rem;
+    
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+}
+
+ul, a.ac{
+    text-decoration: none;
+    text-align: right;
+    font-size: 30px;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+a.ac:hover{
+    color: white;
+    border-radius: 6px;
+    background-color: #D0021B;
+    padding: 7px 14px;
+    transition-duration: 0.5s;
+}
+
+.logoAccueil img{
+    padding-left:30px;
+    position: absolute;
+}
+a.Titre{
+    text-decoration: none;
+    color: #FF9F00;
+    text-align: center; 
+}
+a.Titre:hover{
+    background-color: white;
+    color: #D0021B;
+    transition-duration: 0.6s;
+}
+
+element{
+    position : relative;
+    top:-10px;
+    float: left;
+    margin-left: 115px;
+    margin-right: 90px;
+
+}
+
+
+element img{
+    opacity: 0.8;
+}
+element:hover img{
+    border-radius: 20px;
+    transition-duration: 0.6s;
+    opacity: 100;
+}
+
+.f{
+    text-decoration: none;
+    color: #FF9F00;
+}
+
+
+#Fiche #fichePhoto {
+    padding-left: 200px;
+    float:left;
+    width:50%;
+}
+#Fiche #ficheInfo {
+    margin-left:50%;
+}
+p.fiche{
+    padding-left: 200px;
+    padding-right: 200px;
+    text-align: justify;
+    color: #b87203;
+}
+
+footer{
+    background-color: #cc8005;
+    color: white;
+    padding: 2px;
+    text-align:center;
+    position: fixed;
+    opacity: 0.4;
+    bottom: 0;
+    margin: 0;
+}
+
+footer:hover{
+    background-color: #cc8005;
+    color: white;
+    padding: 2px;
+    text-align:center;
+    position: fixed;
+    opacity: 1;
+    transition-duration: 1s;
+    bottom: 0;
+    margin: 0;
+}
+
+button.categorie{
+    text-decoration: none;
+    text-align: justify;
+    border: none;
+    background-color: white;
+    font-size: 20px;
+}
+a.ac2{
+    text-decoration: none;
+    text-align: right;
+    font-size: 30px;
+    color: #D0021B;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+a.ac2:hover{
+    color: #FF9F00;
+    text-decoration:underline;
+    transition-duration: 0.5s;
+}
+
+

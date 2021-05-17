@@ -1,0 +1,136 @@
+body{
+    background-color: #FF9F00;
+}
+/*Connexion et Insscription*/
+div#connexion div{
+    display: inline-flexbox;
+    width: 35%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+}
+
+div#inscription div{
+    display: inline-flexbox;
+    width: 35%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.logo{
+    margin-left: 50px;
+}
+
+.form{
+    background-color: white;
+    margin-left: 850px;
+    margin-right: 50px;
+    margin-top: -15%;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 40%); /*met leffet d'ombre*/
+    right: 0;
+    border-radius: 10px;
+}
+.description, form{
+    align-items: center;
+}
+.description{
+    text-align: justify;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+.form  a{
+    color: #FF9F00;
+    text-decoration: none;
+}
+.form p2{
+    font-weight:bold;
+    font-size: 25;
+}
+.form p3{
+    font-size: 10;
+    text-align: right;
+}
+.input-form {
+    display: flex;
+    flex-direction: column-reverse;/*met les input a la bonne place*/ 
+    margin: 1.3em 0;
+}
+
+input, label, button {
+    transition: .5s;
+}
+
+label {
+    transform: translate(10px, -15px); /*ecart entre le trait et le texte*/
+    position: absolute; /*met le texte a gauche*/
+}
+
+input {
+    padding: 10px;
+    border: none; outline: none; /* retire le cadre*/
+    border-bottom: 2px solid grey;
+}
+
+button {
+    border: 0; padding: 10px 15px;
+    color: white;
+    background-color: #FF9F00;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+button:focus, button:hover {
+    background-color: #e79106;
+}
+
+.submit-form {
+    text-align: right;
+}
+
+
+input:focus,
+input:not(:placeholder-shown) {
+    border-bottom: 2px solid #FF9F00;
+    padding-right: 5px;
+}
+
+input:not(:placeholder-shown) ~ label,
+input:focus ~ label {
+    transform: translate(10px, -30px) scale(.8); /*permet l'ecart qd on clique*/
+    padding-left: 0;
+    color: #FF9F00;
+}
+
+
+.formI{
+    background-color: white;
+    position: absolute;
+    margin-left: 32%;
+    margin-right: 68%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 40%); /*met leffet d'ombre*/
+    border-radius: 10px;
+}
+.formI  a{
+     color: #FF9F00;
+    text-decoration: none;
+    }
+.formI p2{
+    font-weight:bold;
+    font-size: 25;
+}
+.formI p3{
+    font-size: 10;
+    text-align: right;
+}
+
+footer{
+    background-color: #cc8005;
+    color: white;
+    padding: 8px;
+    text-align:center;
+    position: relative;
+    margin: 0;
+}
